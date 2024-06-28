@@ -12,18 +12,19 @@ const About = () => {
       <div className="about-section-image-container">
         <img src={AboutBackgroundImage} alt="" />
       </div>
-      <div className="about-section-text-container">
+      <div className="about-section-text-container" style={{ maxWidth: '600px', margin: '0 auto' }}>
         <p className="primary-subheading">About</p>
-        <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
-        </h1>
+        <h3 className="primary-heading">
+        Discover the Joy of Gardening
+        </h3>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        At our gardening supplies shop, we're passionate 
+        about helping you cultivate your perfect garden. 
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        From colorful blooms to fresh vegetables, we provide 
+        everything you need to nurture your green oasis. 
+        Join us in celebrating the joy of gardening and watch your garden thrive!
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
